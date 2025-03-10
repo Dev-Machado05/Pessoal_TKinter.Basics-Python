@@ -19,7 +19,7 @@ label = Label( # create and configure a Label
     padx=20,  # Set a padding between the text and the border horizontally
     pady=10,  # Set a padding between the text and the border vertically
     image=photo, # Add a image to the Label
-    compound='bottom' # 
+    compound='bottom' # Ajust the image position
     )  
 
 
