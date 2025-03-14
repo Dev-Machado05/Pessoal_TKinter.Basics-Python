@@ -12,11 +12,15 @@ def submit():
     for index in listbox.curselection():
         selectedItems.insert(index, listbox.get(index))
 
-    print("You select the ")
+    if (len(selectedItems) == 0):
+        print("There is no items selected")
+        
+    else:   
+        print("You select the:")
 
-    # Show the selected items
-    for index in selectedItems:
-        print(index)
+        # Show the selected items
+        for index in selectedItems:
+            print(index)
 
 
 # Function to Add a new item to the list
